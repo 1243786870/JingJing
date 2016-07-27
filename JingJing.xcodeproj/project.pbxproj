@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04E903E81D47A96E00E81AFF /* CalcLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E903E71D47A96E00E81AFF /* CalcLogic.swift */; };
 		131A11D01D478C030041891E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A11CF1D478C030041891E /* AppDelegate.swift */; };
 		131A11D21D478C030041891E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131A11D11D478C030041891E /* ViewController.swift */; };
 		131A11D51D478C030041891E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131A11D31D478C030041891E /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04E903E71D47A96E00E81AFF /* CalcLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcLogic.swift; sourceTree = "<group>"; };
 		131A11CC1D478C030041891E /* JingJing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JingJing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		131A11CF1D478C030041891E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		131A11D11D478C030041891E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				131A11CF1D478C030041891E /* AppDelegate.swift */,
 				131A11D11D478C030041891E /* ViewController.swift */,
+				04E903E71D47A96E00E81AFF /* CalcLogic.swift */,
 				131A11D31D478C030041891E /* Main.storyboard */,
 				131A11D61D478C030041891E /* Assets.xcassets */,
 				131A11D81D478C030041891E /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E903E81D47A96E00E81AFF /* CalcLogic.swift in Sources */,
 				131A11D21D478C030041891E /* ViewController.swift in Sources */,
 				131A11D01D478C030041891E /* AppDelegate.swift in Sources */,
 			);
@@ -400,7 +404,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JingJing/Info.plist;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+>>>>>>> 1b97f1817e1555c747829ed53144cf62e2e46560
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YHT.JingJing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,7 +420,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JingJing/Info.plist;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+>>>>>>> 1b97f1817e1555c747829ed53144cf62e2e46560
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.YHT.JingJing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +496,7 @@
 				131A11F61D478C040041891E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		131A11F71D478C040041891E /* Build configuration list for PBXNativeTarget "JingJingTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				131A11F91D478C040041891E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		131A11FA1D478C040041891E /* Build configuration list for PBXNativeTarget "JingJingUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				131A11FC1D478C040041891E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
